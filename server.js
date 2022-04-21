@@ -1,6 +1,6 @@
-'use strict';
+'use strict'; 
 
-console.log(`process.env.SERVER = ${process.env.SERVER}`);
+console.log(`process.env.SERVER = ${process.env.SERVER}`); // get environment variables
 // get the environment variable, but default to localhost:8082 if its not set
 const SERVER = process.env.SERVER ? process.env.SERVER : "http://localhost:8082";
 
